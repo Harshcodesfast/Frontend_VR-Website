@@ -2,6 +2,8 @@ import NavBar from "./conponents/NavBar";
 import HeroSection from "./conponents/heroSection";
 import FeatureSection from "./conponents/FeatureSection";
 import WorkFlow from "./conponents/WorkFlow";
+import PricingSection from "./conponents/price";
+import Testimonials from "./conponents/textimonials";
 
 export default function App() {
   return (
@@ -11,6 +13,8 @@ export default function App() {
         <HeroSection />
         <FeatureSection />
         <WorkFlow />
+        <PricingSection />
+        <Testimonials />
       </div>
     </div>
   );
