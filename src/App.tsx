@@ -4,6 +4,7 @@ import FeatureSection from "./conponents/FeatureSection";
 import WorkFlow from "./conponents/WorkFlow";
 import PricingSection from "./conponents/price";
 import Testimonials from "./conponents/textimonials";
+import Footer from "./conponents/footer";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <WorkFlow />
         <PricingSection />
         <Testimonials />
+        <Footer />
       </div>
     </div>
   );
